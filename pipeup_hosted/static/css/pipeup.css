@@ -1,0 +1,95 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+pre {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+}
+
+.header .title {
+    float: left;
+    margin: 0px;
+    vertical-align: middle;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+.header .title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header .title a .lighter {
+    font-weight: 200;
+}
+
+.header .nav {
+    float: right;
+    height: 100%;
+}
+
+.header .nav a {
+    margin-top: 11px;
+    margin-right: 5px;
+}
+
+.header .nav .github {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header .nav .github img {
+    width: 38px;
+    height: 38px;
+}
+
+.logs {
+    width: 280px;
+    height: calc(100% - 62px);
+    border-top: 1px black solid;
+    float: left;
+}
+
+.logs ul {
+    list-style: none;
+}
+
+.logs ul li {
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #CCC;
+    cursor: pointer;
+}
+
+.logs ul li code {
+    float: right;
+    padding: 0 6px;
+}
+
+.stream {
+    width: calc(100% - 280px);
+    height: calc(100% - 60px);
+    float: right;
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    overflow-y: scroll;
+}
+
+.stream .scrolling {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.stream pre {
+    width: 100%;
+    overflow-x: hidden;
+}
